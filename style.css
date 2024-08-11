@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Reciclaje</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            overflow-y: scroll;
+        }
+        header {
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-family: 'Playfair Display', serif;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+        nav a:hover {
+            color: #8bc34a;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .section-title {
+            font-size: 32px;
+            color: #4caf50;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+        .section-text {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 300px;
+            height: auto;
+            border: 5px solid #4caf50;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 40px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            font-family: 'Roboto', sans-serif;
+        }
+        footer a {
+            color: #ffebcd;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Reciclaje</h1>
+    </header>
+
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#reciclaje">Reciclaje</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2 class="section-title">¿Qué es el reciclaje y por qué es importante reciclar?</h2>
+            <p class="section-text">El reciclaje es la recolección y el procesamiento de desechos como el papel y cartón, vidrio o plástico. Este supone crear nuevos productos basados en esos mismos materiales. Una nueva oportunidad para la Tierra, a la que se puede proteger si se entienden los beneficios del reciclaje, la manera correcta de separar los residuos y los retos a los que se enfrenta esta actividad en los próximos años.</p>
+        </section>
+
+        <div class="image-container">
+            <img src="https://example.com/imagen1.jpg" alt="Imagen de reciclaje 1">
+            <img src="https://example.com/imagen2.jpg" alt="Imagen de reciclaje 2">
+        </div>
+
+        <section>
+            <p class="section-text">Según ha aumentado la conciencia medioambiental, la actitud de las personas hacia el reciclaje ha ido cambiando. Esto refleja un compromiso más profundo con la protección del planeta por parte de la sociedad. La importancia del reciclaje ha puesto de manifiesto que las acciones individuales tienen un impacto colectivo en el entorno. Esta creciente conciencia ha dado lugar a cambios en los patrones de consumo y a una mayor responsabilidad en la separación de residuos.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">¿Qué es el reciclaje?</h2>
+            <p class="section-text">El reciclaje es el proceso de recolección y transformación de materiales para convertirlos en nuevos productos. Estos desechos, de otro modo, serían descartados como basura.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">¿Qué tipos de reciclaje existen?</h2>
+            <p class="section-text">Existen tres tipos principales. El reciclaje primario, o de circuito cerrado, convierte los materiales en más de lo mismo, como papel en más papel o las latas de refresco en más latas de refresco. El secundario transforma un producto desechado en otros objetos aunque fabricados con el mismo material. Y el terciario o químico descompone químicamente los materiales para producir con ellos algo muy diferente.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">¿Por qué es importante reciclar?</h2>
+            <p class="section-text">Global Recycling Foundation señala múltiples ventajas, aunque pueden resumirse en que conserva los recursos naturales y reduce la sobreexplotación de materias primas protegiendo así los hábitats. Contribuye además a economizar energía ya que los productos reciclados prescinden de varios pasos imprescindibles en el proceso de fabricación. Es decir, se necesita mucha más energía para extraer, refinar, transportar y procesar materias primas que para transformar materiales reciclados ya disponibles.</p>
+        </section>
+
+        <div class="image-container">
+            <img src="https://example.com/imagen3.jpg" alt="Imagen de reciclaje 3">
+            <img src="https://example.com/imagen4.jpg" alt="Imagen de reciclaje 4">
+        </div>
+
+        <section>
+            <h2 class="section-title">Cómo reciclar la basura</h2>
+            <p class="section-text">En todo caso, y como decía Ranjit Baxi, el concepto y la actividad del reciclaje va mucho más allá de las cuestiones técnicas y económicas, implica un esfuerzo colectivo que emplaza a toda la sociedad: desde los hábitos ciudadanos teniendo en cuenta la separación de residuos en las casas para facilitar el ciclo de reciclaje una vez que se despositan en los contenedores de basura categorizados por colores, hasta las administraciones públicas que deben facilitar ese servicio, junto con otras medidas como los etiquetados con información sobre el uso de materiales reciclados en los productos.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">La buena educación</h2>
+            <p class="section-text">Asociaciones como Ecoembes (española, sin ánimo de lucro, que promueve el ecodiseño y el reciclaje de plástico, latas, briks, papel y cartón) trabajan para aumentar la concienciación social y difundir las buenas prácticas en reciclaje para evitar problemas como las dudas sobre los diferentes tipos de residuos. Los errores en la separación de desechos (plásticos, orgánicos, vidrio, papel y cartón, pilas y baterías, etc.) pueden producir “contaminación” al mezclarse materiales, lo que incrementa el costo del procesamiento y por lo tanto reduce la rentabilidad.</p>
+            <p class="section-text">De ahí la importancia de consejos como quitar los tapones metálicos, corchos o pajitas de botellas de vidrio y briks, no arrojar las bolsas de plástico en los contenedores de papel y cartón, vaciar de líquidos y restos de alimentos los recipientes o retirar cintas adhesivas o grapas las cajas.</p>
+        </section>
+    </div>
+
+    <footer>
+        Bibliografía: <a href="https://www.bbva.com/es/sostenibilidad/que-es-la-ropa-organica-todo-lo-que-hay-detras-de-un-armario-sostenible/" target="_blank">https://www.bbva.com/es/sostenibilidad/que-es-la-ropa-organica-todo-lo-que-hay-detras-de-un-armario-sostenible/</a>
+    </footer>
+</body>
+</html>
